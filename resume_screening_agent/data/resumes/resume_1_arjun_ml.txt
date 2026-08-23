@@ -1,0 +1,32 @@
+Arjun Mehta
+arjun.mehta@email.com | Bengaluru, India
+
+EDUCATION
+B.Tech in Computer Science, PES University, 2022-2026 (Expected)
+Relevant coursework: Machine Learning, Data Structures, Statistics, Deep Learning
+
+PUBLICATIONS
+"ML-Driven Bioactivity Prediction for Drug Discovery Using Random Forest and XGBoost"
+Published in IJCRT, 2025. Built and evaluated regression models to predict compound
+bioactivity, achieving 0.87 R2 on held-out test data.
+
+"A Comparative Study of Feature Selection Techniques for Molecular Property Prediction"
+Published in IJARCCE, 2025.
+
+INTERNSHIPS
+Data Science Intern, Take It Smart (Jun 2025 - Aug 2025)
+- Built classification models using scikit-learn and pandas for customer churn prediction
+- Performed exploratory data analysis and feature engineering on datasets with 50k+ rows
+- Used Git for version control and collaborated with a team of 4
+
+Software Engineering Intern, Mphasis (Jan 2025 - Mar 2025)
+- Wrote Python scripts to automate data preprocessing pipelines
+- Worked with SQL to query and clean structured datasets
+
+SKILLS
+Python, scikit-learn, pandas, numpy, PyTorch (basic), Git, SQL, TensorFlow (basic),
+matplotlib, Jupyter, model evaluation, regression, classification
+
+PROJECTS
+- Drug bioactivity prediction pipeline (see publications)
+- Sentiment classifier for product reviews using PyTorch

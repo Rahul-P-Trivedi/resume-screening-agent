@@ -1,0 +1,31 @@
+Job Title: Junior AI/ML Research Associate
+
+Company: NovaMind Labs
+
+About the Role:
+We are looking for a Junior AI/ML Research Associate to join our applied research team.
+You will work on machine learning models for real-world prediction tasks, collaborate with
+senior researchers, and help translate research prototypes into production-ready code.
+
+Required Qualifications:
+- Bachelor's degree in Computer Science, Data Science, or a related field
+- Strong proficiency in Python
+- Hands-on experience with machine learning frameworks such as scikit-learn, TensorFlow, or PyTorch
+- Understanding of core ML concepts: regression, classification, model evaluation, overfitting
+- Experience with data preprocessing and exploratory data analysis (pandas, numpy)
+- Familiarity with version control (Git)
+
+Preferred Qualifications:
+- Published research paper(s) or academic project experience in ML/AI
+- Experience with deep learning or NLP
+- Exposure to SQL and working with structured datasets
+- Experience with cloud platforms (AWS/GCP/Azure)
+
+Responsibilities:
+- Build and evaluate machine learning models for prediction tasks
+- Clean, preprocess, and analyze large datasets
+- Document experiments and communicate findings to the team
+- Collaborate on writing internal technical reports and, where relevant, papers
+
+This is an entry-level position; internship or academic project experience is welcomed
+in place of full-time work history.

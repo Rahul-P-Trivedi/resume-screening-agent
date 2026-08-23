@@ -1,0 +1,22 @@
+Rohan Desai
+rohan.desai@email.com | Ahmedabad, India
+
+EDUCATION
+B.Tech in Artificial Intelligence and Data Science, Nirma University, 2022-2026 (Expected)
+Relevant coursework: Introduction to Machine Learning, Linear Algebra, Probability & Statistics
+
+ACADEMIC PROJECTS
+Housing Price Prediction (Coursework Project, 2025)
+- Built a linear regression model in scikit-learn to predict housing prices
+- Performed basic data cleaning using pandas
+
+Movie Recommendation System (Personal Project, 2024)
+- Built a simple collaborative filtering recommender using Python
+- Used numpy for matrix operations
+
+SKILLS
+Python, scikit-learn (basic), pandas (basic), numpy (basic), Git (basic),
+Jupyter Notebook, basic SQL
+
+No internship or full-time work experience yet. Actively seeking first
+industry opportunity in AI/ML.
