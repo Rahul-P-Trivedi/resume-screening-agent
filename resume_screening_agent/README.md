@@ -53,6 +53,11 @@ resume_screening_agent/
 │   ├── example_results.json
 │   ├── example_results.csv
 │   └── example_terminal_transcript.txt
+├── tests/                      # pytest suite (LLM calls mocked, runs offline)
+│   ├── test_similarity.py
+│   ├── test_file_reader.py
+│   ├── test_scorer.py
+│   └── test_storage.py
 ├── results/                    # your real runs are saved here (gitkeep only, empty in repo)
 ├── requirements.txt
 └── .env.example
@@ -65,8 +70,8 @@ resume_screening_agent/
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
-cd resume_screening_agent
+git clone https://github.com/Rahul-P-Trivedi/resume-screening-agent.git
+cd resume-screening-agent
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -111,6 +116,27 @@ Other flags:
 
 Resumes can be `.txt` or `.pdf`. Just drop files into a folder — no naming
 convention required.
+
+---
+
+## Running the tests
+
+The suite in `tests/` covers similarity scoring, file loading, the scoring
+pipeline, and result storage. The LLM call is mocked in these tests, so they
+run fully offline — no API key or network access needed:
+
+```bash
+pytest tests/ -v
+```
+
+Expected: all tests pass (currently 14).
+
+| Test file | Covers |
+|---|---|
+| `test_similarity.py` | TF-IDF cosine similarity scoring behaves sensibly (identical text scores high, relevant beats unrelated, empty resume scores 0) |
+| `test_file_reader.py` | Loading `.txt` resumes from a folder, ignoring wrong extensions, missing-folder error handling, and that the bundled sample data itself loads correctly |
+| `test_scorer.py` | Similarity + LLM scores combine correctly, results sort descending by final score, and a failed API call is skipped without crashing the batch (LLM call mocked) |
+| `test_storage.py` | Results save correctly to JSON and CSV, including list fields (skills, strengths) getting flattened for CSV |
 
 ---
 
