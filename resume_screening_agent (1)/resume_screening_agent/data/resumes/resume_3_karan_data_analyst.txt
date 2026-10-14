@@ -1,0 +1,23 @@
+Karan Patel
+karan.patel@email.com | Pune, India
+
+EDUCATION
+B.Com in Statistics, Pune University, 2020-2023
+
+WORK EXPERIENCE
+Data Analyst, RetailWorks Inc. (2023 - Present)
+- Built dashboards in Power BI and Tableau to track sales KPIs
+- Wrote SQL queries to extract and aggregate data from a data warehouse
+- Used Python (pandas) for basic data cleaning and reporting automation
+- Presented weekly insights to the merchandising team
+
+SKILLS
+SQL, Power BI, Tableau, Excel, Python (pandas, basic numpy), data visualization,
+reporting, basic statistics
+
+CERTIFICATIONS
+Google Data Analytics Professional Certificate (2023)
+
+PROJECTS
+- Sales forecasting spreadsheet model using historical trends
+- Customer segmentation using Excel pivot tables

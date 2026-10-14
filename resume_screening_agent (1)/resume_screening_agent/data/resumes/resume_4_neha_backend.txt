@@ -1,0 +1,21 @@
+Neha Iyer
+neha.iyer@email.com | Chennai, India
+
+EDUCATION
+B.E. in Computer Science, Anna University, 2021-2025
+
+WORK EXPERIENCE
+Backend Engineering Intern, CloudNine Systems (2024)
+- Developed REST APIs using Python (Flask) and PostgreSQL
+- Wrote unit tests and used Git for version control in a team of 6
+- Deployed services on AWS EC2 and used basic AWS S3 for storage
+- Took an elective course in Machine Learning; built a small scikit-learn
+  classification project as coursework (spam email detector, ~85% accuracy)
+
+SKILLS
+Python, Flask, PostgreSQL, SQL, Git, AWS (EC2, S3), Docker (basic),
+scikit-learn (coursework level), REST API design, unit testing
+
+PROJECTS
+- Spam email classifier (Naive Bayes, scikit-learn) - academic project
+- Task management REST API (Flask + PostgreSQL)

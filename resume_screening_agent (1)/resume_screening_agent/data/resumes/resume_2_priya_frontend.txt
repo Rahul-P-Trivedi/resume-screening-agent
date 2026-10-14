@@ -1,0 +1,23 @@
+Priya Sharma
+priya.sharma@email.com | Mumbai, India
+
+EDUCATION
+B.Sc in Information Technology, Mumbai University, 2021-2024
+
+WORK EXPERIENCE
+Frontend Developer, PixelCraft Studios (2024 - Present)
+- Built responsive web interfaces using React, JavaScript, and Tailwind CSS
+- Collaborated with designers to implement pixel-perfect UI components
+- Optimized page load performance, improving Lighthouse scores by 30%
+
+Web Development Intern, BrightWeb Agency (2023)
+- Developed landing pages using HTML, CSS, and JavaScript
+- Assisted in migrating a legacy jQuery site to React
+
+SKILLS
+JavaScript, TypeScript, React, HTML, CSS, Tailwind, Figma, Git, REST APIs,
+Node.js (basic), responsive design, UI/UX principles
+
+PROJECTS
+- Portfolio website builder (React + Firebase)
+- E-commerce storefront UI clone

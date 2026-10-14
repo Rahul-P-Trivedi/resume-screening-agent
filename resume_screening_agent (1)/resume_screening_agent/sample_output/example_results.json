@@ -1,0 +1,72 @@
+[
+  {
+    "file": "resume_1_arjun_ml.txt",
+    "candidate_name": "Arjun Mehta",
+    "final_score": 88.4,
+    "similarity_score": 71.2,
+    "llm_score": 98,
+    "recommendation": "Strong Fit",
+    "years_experience_estimate": "1-2 years (2 internships)",
+    "matched_skills": ["Python", "scikit-learn", "pandas", "numpy", "Git", "SQL", "regression", "classification"],
+    "missing_skills": ["Cloud platforms (AWS/GCP/Azure)"],
+    "strengths": ["Two published ML research papers", "Direct model-building internship experience", "Strong scikit-learn/pandas fundamentals"],
+    "concerns": ["No production-scale deployment experience", "Deep learning exposure still basic"],
+    "rationale": "Arjun has hands-on ML internship experience, published research directly relevant to predictive modeling, and covers nearly every required skill. Missing only cloud exposure, which is a preferred (not required) qualification."
+  },
+  {
+    "file": "resume_5_rohan_ml_junior.txt",
+    "candidate_name": "Rohan Desai",
+    "final_score": 63.8,
+    "similarity_score": 54.0,
+    "llm_score": 70,
+    "recommendation": "Possible Fit",
+    "years_experience_estimate": "not specified (academic projects only)",
+    "matched_skills": ["Python", "scikit-learn", "pandas", "numpy", "Git", "SQL"],
+    "missing_skills": ["TensorFlow/PyTorch", "Cloud platforms", "Production/internship experience"],
+    "strengths": ["Relevant AI/DS degree", "Built regression and recommender projects independently"],
+    "concerns": ["No internship or industry experience yet", "Skills self-described as 'basic' throughout"],
+    "rationale": "Rohan covers the required tooling at a foundational level through coursework and personal projects, but lacks the internship-level experience Arjun and Neha demonstrate, making him a reasonable but weaker candidate for this role."
+  },
+  {
+    "file": "resume_4_neha_backend.txt",
+    "candidate_name": "Neha Iyer",
+    "final_score": 51.6,
+    "similarity_score": 44.0,
+    "llm_score": 57,
+    "recommendation": "Possible Fit",
+    "years_experience_estimate": "less than 1 year (internship)",
+    "matched_skills": ["Python", "Git", "SQL", "scikit-learn (coursework)"],
+    "missing_skills": ["TensorFlow/PyTorch", "Deep learning/NLP", "EDA/pandas depth"],
+    "strengths": ["Strong software engineering fundamentals", "Cloud (AWS) experience", "One ML coursework project"],
+    "concerns": ["Primary experience is backend engineering, not ML", "Only one small ML project (spam classifier)"],
+    "rationale": "Neha is a capable engineer with solid Git/SQL/cloud skills and one relevant ML project, but her core experience is backend development rather than machine learning, so she partially but not fully matches this research-focused role."
+  },
+  {
+    "file": "resume_3_karan_data_analyst.txt",
+    "candidate_name": "Karan Patel",
+    "final_score": 33.9,
+    "similarity_score": 33.5,
+    "llm_score": 34,
+    "recommendation": "Not a Fit",
+    "years_experience_estimate": "1-2 years (as a Data Analyst)",
+    "matched_skills": ["SQL", "Python (basic)", "pandas (basic)"],
+    "missing_skills": ["Machine learning frameworks (scikit-learn/TensorFlow/PyTorch)", "Model building/evaluation", "Deep learning or NLP exposure"],
+    "strengths": ["Strong SQL and BI/dashboarding skills", "Comfortable with structured datasets"],
+    "concerns": ["No machine learning model-building experience", "Python/pandas usage is basic and reporting-focused, not ML-focused"],
+    "rationale": "Karan has solid data analytics and SQL skills but no evidence of building or evaluating machine learning models, which is the core requirement of this research associate role."
+  },
+  {
+    "file": "resume_2_priya_frontend.txt",
+    "candidate_name": "Priya Sharma",
+    "final_score": 14.6,
+    "similarity_score": 12.0,
+    "llm_score": 16,
+    "recommendation": "Not a Fit",
+    "years_experience_estimate": "1+ years (as a Frontend Developer)",
+    "matched_skills": ["Git"],
+    "missing_skills": ["Python", "Machine learning frameworks", "Data preprocessing/EDA", "Model evaluation"],
+    "strengths": ["Strong frontend/UI engineering skills (not relevant to this role)"],
+    "concerns": ["No Python, ML, or data science experience of any kind", "Entirely different technical domain (frontend web dev)"],
+    "rationale": "Priya's background is exclusively frontend web development with no evidence of Python, machine learning, or data analysis skills, making her a mismatch for this ML research role."
+  }
+]

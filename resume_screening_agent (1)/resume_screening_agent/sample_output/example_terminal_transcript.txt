@@ -1,0 +1,49 @@
+This is an illustrative transcript of `python agent.py` run against the bundled
+sample data (data/job_description.txt + data/resumes/). Numbers match
+sample_output/example_results.json.
+
+============================================================
+AI RESUME SCREENING AGENT
+============================================================
+
+Loading job description from: data/job_description.txt
+Loading resumes from: data/resumes
+Found 5 resume(s). Screening now (this calls the Claude API)...
+
+  Screening resume_1_arjun_ml.txt ...
+  Screening resume_2_priya_frontend.txt ...
+  Screening resume_3_karan_data_analyst.txt ...
+  Screening resume_4_neha_backend.txt ...
+  Screening resume_5_rohan_ml_junior.txt ...
+
++----------------+---------------+--------------+-------------+------------------+
+| Candidate      |   Final Score |   Similarity |   LLM Score | Recommendation   |
++================+===============+==============+=============+==================+
+| Arjun Mehta    |          88.4 |         71.2 |          98 | Strong Fit       |
+| Rohan Desai    |          63.8 |         54.0 |          70 | Possible Fit     |
+| Neha Iyer      |          51.6 |         44.0 |          57 | Possible Fit     |
+| Karan Patel    |          33.9 |         33.5 |          34 | Not a Fit        |
+| Priya Sharma   |          14.6 |         12.0 |          16 | Not a Fit        |
++----------------+---------------+--------------+-------------+------------------+
+
+Saved full results to:
+  results/run_20260101_120000.json
+  results/run_20260101_120000.csv
+
+Type a candidate's name (or part of it) to see full details, 'list' to see the
+ranking again, or 'exit' to quit.
+
+> arjun
+
+--- Arjun Mehta (resume_1_arjun_ml.txt) ---
+Final Score: 88.4  |  Recommendation: Strong Fit
+Similarity (TF-IDF): 71.2  |  LLM Judgement: 98
+Estimated Experience: 1-2 years (2 internships)
+Matched Skills: Python, scikit-learn, pandas, numpy, Git, SQL, regression, classification
+Missing Skills: Cloud platforms (AWS/GCP/Azure)
+Strengths: Two published ML research papers, Direct model-building internship experience, Strong scikit-learn/pandas fundamentals
+Concerns: No production-scale deployment experience, Deep learning exposure still basic
+Rationale: Arjun has hands-on ML internship experience, published research directly relevant to predictive modeling, and covers nearly every required skill. Missing only cloud exposure, which is a preferred (not required) qualification.
+
+> exit
+Goodbye.
